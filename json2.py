@@ -42,3 +42,5 @@ max_users = " and ".join(users)
 s = "s" if len(users) > 1 else ""
 print(f"user{s} {max_users} completed {max_complete} TODOs")
 #users 5 and 10 completed 12 TODOs
+#to read a specific url that sends data as a json
+example=requests.get_json('respective url',force=True)
