@@ -44,3 +44,5 @@ print(f"user{s} {max_users} completed {max_complete} TODOs")
 #users 5 and 10 completed 12 TODOs
 #to read a specific url that sends data as a json
 example=requests.get_json('respective url',force=True)
+#the trick behind unit testing is to do introspection:interrogating the code to find out what needs to be documented then
+#passing the documentation to see if each item has been covered
